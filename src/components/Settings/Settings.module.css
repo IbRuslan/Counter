@@ -6,3 +6,10 @@
     margin-top: 10px;
     text-align: center;
 }
+
+.input {
+    border: none;
+    border-bottom: 1px solid #bd1010;
+    outline: none;
+    border-radius: 5px;
+}

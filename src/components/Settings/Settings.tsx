@@ -35,10 +35,10 @@ export const Settings: React.FC<SettingsType> = ({open,}) => {
         <div>
             <div>
                 <div>
-                    <span className={s.span}>start value: </span><input onChange={minChangeValue} value={count.min}/>
+                    <span className={s.span}>start value: </span><input className={s.input} type={'number'} onChange={minChangeValue} value={count.min}/>
                 </div>
                 <div>
-                    <span className={s.span}>max value: </span><input onChange={maxChangeValue} value={count.max}/>
+                    <span className={s.span}>max value: </span><input className={s.input} type={'number'} onChange={maxChangeValue} value={count.max}/>
                 </div>
             </div>
             <div className={s.btn}>
